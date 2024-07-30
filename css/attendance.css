@@ -1,0 +1,10 @@
+/* Add specific styles for the Attendance page */
+body {
+    background: #f4f6f9;
+}
+
+.main-content h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #34495e;
+}

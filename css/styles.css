@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+header {
+    border-bottom: 1px solid #bdc3c7;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card.blue {
+    background: #3498db;
+}
+
+.card.green {
+    background: #2ecc71;
+}
+
+.card.purple {
+    background: #9b59b6;
+}
+
+.card.red {
+    background: #e74c3c;
+}
+
+.info-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-section {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background: #ecf0f1;
+}
+
+.birthday-buddy {
+    display: flex;
+    align-items: center;
+}
+
+.birthday-buddy img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
