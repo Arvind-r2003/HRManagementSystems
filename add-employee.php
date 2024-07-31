@@ -52,7 +52,10 @@
             <label for="date_of_joining">Date of Joining:</label>
             <input type="date" id="date_of_joining" name="date_of_joining" required>
 
-            <button type="submit">Add Employee</button>
+            <div class="form-buttons">
+                <button type="submit">Add Employee</button>
+                <a href="employees.php" class="go-back-button">Go Back</a>
+            </div>
         </form>
     </div>
 </body>

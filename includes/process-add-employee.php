@@ -1,5 +1,5 @@
 <?php
-include('./db.php');
+include('../db.php');
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
@@ -14,7 +14,8 @@ $sql = "INSERT INTO employees (first_name, last_name, email, phone, department_i
         VALUES ('$first_name', '$last_name', '$email', '$phone', '$department_id', '$designation_id', '$date_of_birth', '$date_of_joining')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New employee added successfully";
+    header("Location: ../employees.php"); // Redirect to employees.php
+    exit(); // Make sure to call exit after header redirection
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
