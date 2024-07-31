@@ -13,7 +13,7 @@
     <div class="main-content">
         <?php include('includes/header.php'); ?>
         <h2>Add Employee</h2>
-        <form action="process-add-employee.php" method="POST">
+        <form action="includes/process-add-employee.php" method="POST">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required>
 

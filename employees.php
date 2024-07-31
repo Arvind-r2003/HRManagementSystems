@@ -55,7 +55,7 @@
                 ?>
             </tbody>
         </table>
-        <a href="includes/add-employee.php" class="add-employee-button">Add Employee</a>
+        <a href="add-employee.php" class="add-employee-button">Add Employee</a>
     </div>
 </body>
 </html>

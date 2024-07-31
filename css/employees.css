@@ -5,7 +5,7 @@ body {
 }
 
 .main-content {
-    margin-left: 200px; /* Assuming sidebar width is 200px */
+    margin-left: 250px; /* Assuming sidebar width is 200px */
     padding: 20px;
 }
 
@@ -14,7 +14,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-table {
+table { 
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;

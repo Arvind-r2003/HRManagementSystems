@@ -77,15 +77,11 @@
                 <p>No Any New Festival!</p>
             </div>
             <div class="info-section">
-                <h4>Birthday Buddies</h4>
+                <h4>Notifications</h4>
                 <div class="birthday-buddy">
-                    <img src="images/user-image.png" alt="User Image">
                     <div>
-                        <p>Sundar Rajan</p>
-                        <p>07-Jun-1958</p>
-                        <p>Easyscribes</p>
+                        <p>You have a new notification</p>
                     </div>
-                    <span>Web Designer</span>
                 </div>
             </div>
             <div class="info-section">
