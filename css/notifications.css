@@ -1,0 +1,81 @@
+/* notifications.css */
+
+/* General Styles */
+.notifications-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-left: 250px;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.message {
+    padding: 10px;
+    background-color: #eaf0f4;
+    color: #333;
+    border: 1px solid #cce0f7;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.action-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaf0f4;
+    color: #333;
+    border: 1px solid #cce0f7;
+    border-radius: 4px;
+}
