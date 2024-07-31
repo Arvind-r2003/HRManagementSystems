@@ -95,6 +95,7 @@ HR Management System is a web-based application that helps manage human resource
 
 ### Dashboard (`index.php`)
 
+- Displays the overall portal and features in one page.
 - Displays a welcome message with the user's first and last name.
 - Includes a sidebar with navigation links.
 - Shows a real-time 12-hour clock with AM/PM.
