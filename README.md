@@ -119,6 +119,4 @@ HR Management System is a web-based application that helps manage human resource
 
 Contributions are welcome. If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
